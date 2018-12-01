@@ -1,6 +1,6 @@
 # Strings
 
-In [module 1](/python/basiselementen) heb je al kennis gemaakt met het datatype **string**. We definieerden een string als een reeks letters. In Pythoncode worden ze geschreven met aanhalingstekens: `'enkele'` of `"dubbele"`.
+In [module 1](../python/basiselementen) heb je al kennis gemaakt met het datatype **string**. We definieerden een string als een reeks letters. In Pythoncode worden ze geschreven met aanhalingstekens: `'enkele'` of `"dubbele"`.
 
 ## Indexeren
 

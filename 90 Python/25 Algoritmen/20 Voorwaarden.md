@@ -2,7 +2,9 @@
 
 In de voorgaande programma's schreven we scriptjes die regel voor regel van boven naar beneden werden uitgevoerd. Een soort stapsgewijze handleiding. Programma's worden interessanter als we *uitzonderingen* willen beschrijven.
 
-![embed](https://player.vimeo.com/video/287244672)
+<figure class="video_container">
+  <iframe src="https://player.vimeo.com/video/287244672" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 ## Details
 

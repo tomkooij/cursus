@@ -4,7 +4,9 @@ Een **waarde** is een van de basale onderdelen in een programma. In de voorbeeld
 
 Om resultaten van berekeningen te kunnen gebruiken in andere berekeningen, moeten we deze tijdelijk op zien te slaan. Als oplossing laat Python je namen toekennen aan waardes. Deze naam-waarde combinaties noemen we **variabelen**. Door middel van de `=` operator kunnen we een naam toekennen aan een waarde, en deze vervolgens ergens anders gebruiken.
 
-![embed](https://player.vimeo.com/video/287248523)
+<figure class="video_container">
+  <iframe src="https://player.vimeo.com/video/287248523" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 ## Types
 

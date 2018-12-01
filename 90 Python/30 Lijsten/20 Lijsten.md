@@ -2,7 +2,9 @@
 
 Lijsten in Python zijn handig om data te groeperen en vervolgens als geheel te verwerken. Zo kun je berekeningen niet alleen maar op bijvoorbeeld losse getallen toepassen (is dit specifieke getal een priemgetal?) maar ook op hele verzamelingen. In de video uitleg over simpele toepassingen.
 
-![embed](https://player.vimeo.com/video/287247201)
+<figure class="video_container">
+  <iframe src="https://player.vimeo.com/video/287247201" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 ## Naslag
 

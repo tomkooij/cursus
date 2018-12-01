@@ -15,7 +15,10 @@ Verder zie je dat we net als bij `if` weer kunnen inspringen om duidelijk te mak
 
 ## Voorbeelden van loops
 
-![embed](https://vimeo.com/album/5380755/embed)
+
+<figure class="video_container">
+  <iframe src="https://player.vimeo.com/video/5380755" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 ## Stapgrootte van een loop
 
