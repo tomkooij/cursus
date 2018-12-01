@@ -1,6 +1,6 @@
 # Inleiding wetenschappelijk programmeren
 
-Welkom bij de NLT module inleiding wetenschappelijk programmeren! Komende tijd ga je werken met de programmeertaal Python, om te leren wetenschappelijke problemen uit de verschillende bètawetenschappen op te lossen.
+Welkom bij inleiding wetenschappelijk programmeren! Komende tijd ga je werken met de programmeertaal Python, om te leren wetenschappelijke problemen uit de verschillende bètawetenschappen op te lossen.
 
 Deze module kun je opvatten als een "cursus programmeren". Deze cursus is bedoeld voor mensen die nog helemaal geen ervaring hebben met programmeren. Trouwens: het is ook heel leuk om de cursus met z’n tweeën te doen, dan kun je discussiëren over hoe je de problemen aanpakt.
 
