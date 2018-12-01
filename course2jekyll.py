@@ -24,11 +24,15 @@ and run:
 
 `python course2jekyll.py` from the course root folder.
 
+This requires python-slugify: https://github.com/un33k/python-slugify
+
 """
 
 import pathlib
 import shutil
 import os
+
+from slugify import slugify
 
 COURSE_FOLDER = ''
 DEST_FOLDER = '_staticsite'
@@ -41,12 +45,16 @@ def get_course_path():
 def get_dest_path():
     return pathlib.Path.cwd() / DEST_FOLDER
 
-def fix_foldername(foldername):
+def slugify_foldername(foldername):
     """
-    `10 Getaltheorie` -> `getaltheorie`
+    slugify the foldername and remove leading numbers
+
+    `10 Installatie computer` -> `installatie-computer`
 
     """
-    return foldername.split()[1].lower()
+    slug = slugify(foldername)
+    firstbreak = slug.find('-')
+    return slug[firstbreak+1:]
 
 def process_course(course_path, dest_path):
     """
@@ -60,7 +68,7 @@ def process_course(course_path, dest_path):
             create_root_index(path, dest_path)
             continue
         if path.is_dir() and str(path.name)[0].isdigit():
-            name = fix_foldername(path.name)
+            name = slugify_foldername(path.name)
             page_dest_path = dest_path / name
             print(f'Folder {path} -> {page_dest_path}')
             if not page_dest_path.exists():
@@ -77,7 +85,7 @@ def process_pages(page_path, dest_path):
     """
     for path in sorted(page_path.glob('*')):
         if path.is_dir():
-            name = fix_foldername(path.name) + '.md'
+            name = slugify_foldername(path.name) + '.md'
             print(f' * creating markdown page {name}')
             process_subpages(path, dest_path, md_file = name)
 
