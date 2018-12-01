@@ -1,7 +1,5 @@
 # Programmeren voor Bèta's en Gamma's
 
-*DIT IS DE GITHUB ReadMe*
-
 Deze cursusmaterialen leren je Python kennen, een programmeertaal die inmiddels veel gebruikt wordt in de wetenschap. Er zijn vier modules:
 
 - De basiselementen van Python
