@@ -47,7 +47,7 @@ Dit materiaal is gebaseerd op de cursus "[Inleiding programmeren](https://inleid
 
 Wil je dit materiaal hergebruiken? Dat mag en is ook precies de bedoeling!
 
-## Colofon van het originele materiaal
+#### Colofon van het originele materiaal
 
 Deze cursus is gemaakt door Martijn Stegeman (<mailto:martijn@stgm.nl>) en Ivo van Vulpen (<mailto:ivo.van.vulpen@nikhef.nl>) (opdrachten en ontwerp). We hebben veel hulp gehad van studenten en assistenten die de cursus hebben uitgeprobeerd of eigen ideeën bijgedragen. Speciale dank gaat naar:
 
