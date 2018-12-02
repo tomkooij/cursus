@@ -27,7 +27,7 @@ kies uit:
  - *optie*: Bereken je voordeel bij [Monopoly](monopoly/inhoud)
 
 #### Module 4
- - analyseer alle KNMI temperatuur-metingen van de 20ste eeuw: [Big Data](big/inhoud)!
+ - analyseer alle KNMI temperatuur-metingen van de 20ste eeuw: [Big Data](big-data/inhoud)!
 
 
 ## Leerdoelen
