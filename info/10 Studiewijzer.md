@@ -24,7 +24,8 @@ kies uit:
 #### Module 3
 kies uit:
  - *optie*: bestudeer de natuurkundige regels van [beweging](beweging/inhoud)
- - *optie*: Bereken je voordeel bij [Monopoly](monopoly/inhoud)
+ - *optie*: bereken je voordeel bij [Monopoly](monopoly/inhoud)
+ - *optie*: bestudeer de [populatiedynamica](prooi-predator/inhoud) van konijnen en vossen.
 
 #### Module 4
  - analyseer alle KNMI temperatuur-metingen van de 20ste eeuw: [Big Data](big-data/inhoud)!
