@@ -31,6 +31,7 @@ This requires python-slugify: https://github.com/un33k/python-slugify
 import pathlib
 import shutil
 import os
+import re
 
 from slugify import slugify
 
@@ -42,8 +43,34 @@ PAGE_HEADER = '---\nlayout: default\n---\n'
 def get_course_path():
     return pathlib.Path.cwd() / COURSE_FOLDER
 
+
 def get_dest_path():
     return pathlib.Path.cwd() / DEST_FOLDER
+
+
+def fix_markdown(md):
+    """ translate (fix) markdown texts:
+
+    apply filters:
+    - change links: ADD {{site.baseurl}} (to fix /root/relative/links)
+    - TODO: change ![embed] to proper videolink
+    - TODO:
+
+    """
+
+    def add_base_url(match):
+        """ [foo](/link) --> [foo]({{site.baseurl}}/link) """
+        return re.sub(r'\]\(', ']({{site.baseurl}}', match.group())
+
+    filters = {
+        r'\[([^\[]+)\]\(([^\)]+)\)': add_base_url
+        }
+
+    for filter in filters:
+        md = re.sub(filter, filters[filter], md)
+
+    return md
+
 
 def slugify_foldername(foldername):
     """
@@ -106,7 +133,7 @@ def process_subpages(subpage_path, destination_path, md_file = "index.md"):
             #print(f'copy {path} to {destination_path}')
             shutil.copy(path, destination_path)
     with open(destination_path / md_file, "w") as f:
-        f.write(PAGE_HEADER + markdown)
+        f.write(PAGE_HEADER + fix_markdown(markdown))
 
 
 def create_root_index(path, dest_path):
