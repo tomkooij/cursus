@@ -23,7 +23,9 @@ roepen*. Dit doe je zo:
 
 ## Voorbeelden van het maken van functies
 
-![embed](https://vimeo.com/album/5380760/embed)
+<figure class="video_container">
+  <iframe src="https://vimeo.com/album/5380760/embed" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 ## Stijl en ontwerp
 
